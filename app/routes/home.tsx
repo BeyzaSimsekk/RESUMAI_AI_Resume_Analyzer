@@ -1,5 +1,6 @@
 import Navbar from "~/components/Navbar";
 import type { Route } from "./+types/home";
+import { resumes } from "../../constants";
 
 
 export function meta({}: Route.MetaArgs) {
@@ -10,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <main className="bg-[url('/images/bg-main.svg')] bg-cover">
+  return (<main className="bg-[url('/images/bg-main.svg')] bg-cover">
     {/* Navbar */}
     <Navbar />
     
@@ -21,5 +22,13 @@ export default function Home() {
         <h2>Review your submissions and check AI-powered feedback.</h2>
       </div>
     </section>
-  </main> ;
+
+    {resumes.map( (resume) => (
+      <div>
+        <h1>{resume.jobTitle}</h1>
+      </div>
+    ) )}
+
+  </main>
+  );
 }

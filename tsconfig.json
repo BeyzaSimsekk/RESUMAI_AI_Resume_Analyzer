@@ -1,6 +1,7 @@
 {
   "include": [
     "**/*",
+    "./constants",
     "**/.server/**/*",
     "**/.client/**/*",
     ".react-router/types/**/*"
@@ -15,7 +16,8 @@
     "rootDirs": [".", "./.react-router/types"],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./app/*"],
+      "constants/*": ["./constants/*"],
     },
     "esModuleInterop": true,
     "verbatimModuleSyntax": true,
