@@ -125,7 +125,7 @@ Böylece kod, tarayıcı dışında (örneğin SSR gibi ortamlarda) hata vermez.
 
 ---
 
-## 🧩 9. usePuterStore = create<PuterStore>(...) {aşağıda daha detaylı açıklaması bulunuyor.}
+## 🧩 9. usePuterStore = create<PuterStore>(...) [aşağıda daha detaylı açıklaması bulunuyor.](#useputerstore)
 
 Burası her şeyin birleştiği yer.
 Zustand ile **tek bir merkezi store** oluşturuluyor.
