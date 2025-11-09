@@ -19,6 +19,7 @@ export default function Home() {
   const {auth} = usePuterStore();   
   const navigate = useNavigate(); 
 
+  // Redirect to auth if not logged in
   useEffect(() => {
       if(!auth.isAuthenticated) navigate("/auth?next=/");
   },[auth.isAuthenticated])
