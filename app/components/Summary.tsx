@@ -1,3 +1,4 @@
+import ScoreBadge from './ScoreBadge';
 import ScoreGauge from './ScoreGauge'
 
 const Category = ({ title, score } : { title:string, score: number }) => {
@@ -11,6 +12,7 @@ const Category = ({ title, score } : { title:string, score: number }) => {
       <div className='category'>
         <div className='flex flex-row gap-2 items-center justify-center'>
           <p className='text-2xl cursor-default'>{title}</p>
+          <ScoreBadge score={score} />
         </div>
         <p className='text-2xl font-semibold cursor-default'>
           <span className={textColor}>{score}</span>/100
