@@ -34,7 +34,7 @@ const ATS: React.FC<ATSProps> = ({ score, suggestions }) => {
       : 'Needs Improvement';
 
   return (
-    <div className={`bg-linear-to-b ${gradientClass} to-white rounded-2xl shadow-md w-full p-6 cursor-default hover:scale-101 hover:shadow-lg transform transition-all duration-300 ease-in`}>
+    <div className={`bg-linear-to-b ${gradientClass} to-white rounded-2xl shadow-md w-full p-6 cursor-default hover:shadow-lg transform transition-all duration-300 ease-in`}>
       {/* Top section with icon and headline */}
       <div className='flex items-center gap-4 mb-6'>
         <img src={iconSrc} alt="ATS Score Icon" className="w-12 h-12" />
