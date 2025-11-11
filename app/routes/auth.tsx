@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter"
 
 export const meta = () => ([
@@ -20,8 +20,13 @@ const Auth = () => {
 
   return (
     <main className="bg-[url('/images/bg-auth.svg')] bg-cover min-h-screen flex items-center justify-center">
+        
         <div className="gradient-border shadow-lg">
             <section className="flex flex-col gap-8 bg-white rounded-2xl p-10">
+                <Link to="/" className="back-button">
+                    <img src="/icons/back.svg" alt="back-button " className="w-2.5 h-2.5"/>
+                    <span className="text-gray-800 text-sm font-semibold">Back To Homepage</span>
+                </Link>
                 {/* Title */}
                 <div className="flex flex-col items-center gap-2 text-center">
                     <h1>Welcome</h1>
