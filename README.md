@@ -91,6 +91,3 @@ This project was deployed using **Puter’s App Center**:
 
 - **JavaScript Mastery (JS Mastery)** — for helpful references and guidance during development
 
-```
-
-```
