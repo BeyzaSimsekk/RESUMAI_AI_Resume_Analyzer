@@ -83,3 +83,5 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
     </main>
   );
 }
+
+// this project developed by BeyzaSimsekk
