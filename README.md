@@ -3,7 +3,7 @@
 > An AI-driven Resume Analyzer built with **React Router**, **TailwindCSS**, and **Puter AI API**.  
 > Upload your resume, and let the system automatically analyze it for strengths, weaknesses, and job-fit score.
 
-🌐 **Live Demo:** [byz-resumai-ai-powered-ats-0nscf.puter.site](https://byz-resumai-ai-powered-ats-0nscf.puter.site/)
+🌐 **Live Demo:** [https://byz-resumai-ai-powered-ats-hxv6z.puter.site/](https://byz-resumai-ai-powered-ats-hxv6z.puter.site/)
 
 ---
 
